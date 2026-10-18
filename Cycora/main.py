@@ -39,7 +39,6 @@ def valid_iso_date(value, field_name):
 
 
 class WheelColumn(tk.Frame):
-    """A small mouse-wheel date column with a highlighted center value."""
     def __init__(self, parent, values, selected, width=110, on_change=None):
         super().__init__(parent, bg=CARD)
         self.values = list(values)
@@ -102,7 +101,6 @@ class WheelColumn(tk.Frame):
 
 
 class DateWheelPicker(tk.Frame):
-    """Reusable wheel-style date picker with direct year selection."""
     MONTHS = ['January', 'February', 'March', 'April', 'May', 'June',
               'July', 'August', 'September', 'October', 'November', 'December']
 
@@ -497,7 +495,6 @@ class CycoraApp(tk.Tk):
                     tk.Checkbutton(card, text=option, variable=var, bg=CARD, fg=TEXT, activebackground=CARD, selectcolor=PINK, font=("Segoe UI", 10), anchor="w").pack(fill="x", padx=20, pady=4)
         elif kind == "warning":
 
-            # Try loading the exclamation logo
             try:
                 warning_logo = tk.PhotoImage(
                     file="assets/goals/exclamation.png")
@@ -523,7 +520,6 @@ class CycoraApp(tk.Tk):
                 bg=CARD
                 ).pack(pady=(20, 8))
 
-            # Warning message
             tk.Label(
                 card,
                 text=(

@@ -1,6 +1,4 @@
-"""Beginner-friendly reproductive health articles with reputable starting-point references.
-Content is educational, not a diagnosis or individualized treatment plan.
-"""
+
 ARTICLES = [
  {"title":"Understanding your menstrual cycle","category":"Cycle basics","body":"Cycle day 1 is the first day of menstrual bleeding. The cycle continues until the day before the next period begins. Cycle length, bleeding, and symptoms can vary from person to person and month to month. A diary can help you notice your own pattern.","advice":"Record the first day of bleeding consistently. Add an end date if you know it, and mark estimates separately from confirmed dates.","source":"NHS — Periods","url":"https://www.nhs.uk/periods/"},
  {"title":"Period cramps (dysmenorrhea)","category":"Pain & symptoms","body":"Cramping can happen when the uterus contracts during a period. Mild cramps are common, but pain that is severe, new, worsening, or interferes with everyday activities deserves medical advice. Conditions such as endometriosis can also cause pelvic pain.","advice":"Some people find a warm pack, rest, gentle movement, or an appropriate over-the-counter medicine helpful. Follow medicine labels and ask a pharmacist or clinician if you are unsure. Seek urgent care for severe sudden pain, fainting, or possible pregnancy with pain.","source":"NHS — Period pain","url":"https://www.nhs.uk/conditions/period-pain/"},

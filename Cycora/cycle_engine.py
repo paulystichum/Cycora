@@ -1,10 +1,7 @@
-"""Simple, transparent cycle estimates. These are not medical predictions."""
 from datetime import date, datetime, timedelta
-
 
 def parse_date(value):
     return datetime.strptime(value.strip(), "%Y-%m-%d").date()
-
 
 def cycle_summary(period_rows):
     # Input rows are ordered newest first; ignore malformed dates defensively.
